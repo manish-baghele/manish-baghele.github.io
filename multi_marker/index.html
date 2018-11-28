@@ -1,0 +1,49 @@
+<!doctype HTML>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    </head>
+    <script src="scripts/aframe.min.js"></script>
+    <script src="scripts/aframe-ar.min.js"></script>
+    <script src="scripts/aframe-extras.loaders.min.js"></script>
+    
+    <!-- import events.js script -->
+    <script src="scripts/events.js"></script>
+    
+    <body style='margin : 0px; overflow: hidden;'>
+        <!-- we add detectionMode and matrixCodeType to tell AR.js to recognize barcode markers -->
+        <a-scene embedded arjs='sourceType: webcam; debugUIEnabled:false;  multiple-markers:true;' vr-mode-ui="enabled:false">
+
+        <a-assets>
+            <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/nicolocarpignoli/nicolocarpignoli.github.io/master/ar-playground/models/CesiumMan.gltf"></a-asset-item>
+        </a-assets>
+
+        <a-marker markerhandler emitevents="true" markersAreaEnabled="true"; cursor="rayOrigin: mouse" id="animated-marker" type='pattern' url='gLogo.patt' >
+           
+            <a-gltf-model src="models/ball.gltf" id="animated-ball" position="0 0 0" rotation="90 180 0" scale="0.01 0.01 0.01" animation-mixer="clip:Take 001"></a-gltf-model>
+        </a-marker>
+
+        <a-marker markerhandler emitevents="true" cursor="rayOrigin: mouse" id="animated-marker" type='pattern' url='pink.patt'>
+           
+            <a-gltf-model src="models/spidy.gltf" id="animated-model" position="0 0 0" rotation="90 180 0" scale="0.01 0.01 0.01" animation-mixer="clip:idle"></a-gltf-model>
+        </a-marker>
+
+        <a-marker markerhandler emitevents="true" cursor="rayOrigin: mouse"  type='pattern' url='cyan.patt'>
+           
+            <a-gltf-model src="models/spidy.gltf" " position="0 0 0" rotation="90 180 0" scale="0.01 0.01 0.01" animation-mixer="clip:idle"></a-gltf-model>
+        </a-marker>
+
+        <a-marker markerhandler emitevents="true" cursor="rayOrigin: mouse"  type='pattern' url='gray.patt'>
+           
+            <a-gltf-model src="models/spidy.gltf"  position="0 0 0" rotation="90 180 0" scale="0.01 0.01 0.01" animation-mixer="clip:idle"></a-gltf-model>
+        </a-marker>
+
+        <a-marker markerhandler emitevents="true" cursor="rayOrigin: mouse"  type='pattern' url='yellow.patt'>
+           
+            <a-gltf-model src="models/spidy.gltf"  position="0 0 0" rotation="90 180 0" scale="0.01 0.01 0.01" animation-mixer="clip:idle"></a-gltf-model>
+        </a-marker>
+        <!-- use this <a-entity camera> to support multiple-markers, otherwise use <a-marker-camera> instead of </a-marker> -->
+        <a-entity camera></a-entity>
+        </a-scene>
+    </body>
+</html>
