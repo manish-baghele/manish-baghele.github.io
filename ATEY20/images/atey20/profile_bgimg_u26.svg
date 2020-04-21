@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="440" height="426" viewBox="0 0 440 426">
+  <defs>
+    <filter id="Rectangle_10" x="0" y="116" width="440" height="310" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_10)">
+    <rect id="Rectangle_10-2" data-name="Rectangle 10" width="422" height="292" rx="16" transform="translate(9 125)" fill="#fff"/>
+  </g>
+  <text id="Michelle_Gibs" data-name="Michelle Gibs" transform="translate(153 21)" fill="#fff" font-size="22" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Michelle Gibs</tspan></text>
+  <text id="Age:_38" data-name="Age: 38" transform="translate(196 51)" fill="#fff" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Age: 38</tspan></text>
+  <text id="Location:_San_Francisco" data-name="Location: San Francisco" transform="translate(145 79)" fill="#fff" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Location: San Francisco</tspan></text>
+</svg>

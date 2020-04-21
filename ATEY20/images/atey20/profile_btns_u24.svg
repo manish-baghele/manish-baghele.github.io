@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="239" height="24" viewBox="0 0 239 24">
+  <g id="Group_118" data-name="Group 118" transform="translate(0 -232)">
+    <g id="Group_116" data-name="Group 116" transform="translate(-62 -35)">
+      <rect id="Rectangle_92" data-name="Rectangle 92" width="112" height="24" rx="5" transform="translate(189 267)" fill="#fff"/>
+      <text id="Upload_photo" data-name="Upload photo" transform="translate(204 284)" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Upload photo</tspan></text>
+    </g>
+    <g id="Group_117" data-name="Group 117" transform="translate(-189 -35)">
+      <g id="Rectangle_92-2" data-name="Rectangle 92" transform="translate(189 267)" fill="none" stroke="#fff" stroke-width="1">
+        <rect width="112" height="24" rx="5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="111" height="23" rx="4.5" fill="none"/>
+      </g>
+      <text id="Select_avatar" data-name="Select avatar" transform="translate(205 284)" fill="#fff" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Select avatar</tspan></text>
+    </g>
+  </g>
+</svg>
