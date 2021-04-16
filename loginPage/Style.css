@@ -1,0 +1,10 @@
+#slider5 .rs-border.rs-outer  {
+    border: 16px dotted #61A9DC;
+}
+#slider5 .rs-border.rs-inner  {
+    border-width: 0px;
+}
+#slider5 .rs-handle  {
+    background: black;
+    margin-left: 0 !important;
+}
